@@ -22,6 +22,8 @@ identificadores para permitir a ligação com os futuros casos de teste.
   nome e do e-mail.
 - **ESP-002:** os espaços digitados na senha não deverão ser removidos nem
   alterados.
+- **ESP-003:** quando houver dois ou mais espaços consecutivos entre as partes
+  do nome, o sistema deverá reduzi-los para um único espaço.
 
 ### Nome
 
@@ -71,8 +73,10 @@ identificadores para permitir a ligação com os futuros casos de teste.
   obrigatória.
 - **SEN-006:** o sistema deverá manter exatamente os caracteres digitados, sem
   substituir espaços por hífens.
-- **SEN-007:** os caracteres da senha deverão permanecer ocultos durante a
-  digitação.
+- **SEN-007:** os caracteres da senha deverão permanecer ocultos por padrão
+  durante a digitação.
+- **SEN-008:** o campo deverá possuir um botão que permita mostrar a senha e
+  ocultá-la novamente.
 
 ### Botão Cadastrar
 
@@ -80,16 +84,30 @@ identificadores para permitir a ligação com os futuros casos de teste.
   usuário e exibir a mensagem “Cadastro realizado com sucesso”.
 - **CAD-002:** o sistema não deverá criar um segundo usuário com o mesmo
   e-mail.
-- **CAD-003:** o botão deverá permanecer disponível mesmo quando existirem
-  campos inválidos.
-- **CAD-004:** ao selecionar o botão, o sistema deverá validar todos os campos.
+- **CAD-003:** o botão Cadastrar deverá permanecer desabilitado enquanto houver
+  algum campo obrigatório vazio ou inválido. Ele deverá ser habilitado quando
+  todos os campos estiverem válidos.
+- **CAD-004:** cada campo deverá ser validado quando o usuário sair dele.
 - **CAD-005:** após o primeiro clique, o botão deverá ficar temporariamente
   desabilitado enquanto o cadastro estiver sendo processado.
 - **CAD-006:** uma mensagem clara deverá ser exibida abaixo de cada campo
   inválido.
-- **CAD-007:** o primeiro campo com erro deverá ser destacado.
+- **CAD-007:** a mensagem e o destaque do campo deverão permanecer visíveis
+  enquanto o valor informado continuar inválido.
 - **CAD-008:** o usuário não deverá ser criado enquanto existir algum erro de
   validação.
+- **CAD-009:** todos os campos inválidos deverão ser destacados em vermelho.
+  A cor deverá ser acompanhada pelas mensagens de erro previstas em CAD-006.
+- **CAD-010:** cliques repetidos no botão Cadastrar durante o processamento não
+  deverão criar cadastros duplicados.
+- **CAD-011:** após um cadastro realizado com sucesso, os campos Nome, E-mail e
+  Senha deverão ser limpos automaticamente.
+- **CAD-012:** quando houver erro de validação, os dados dos outros campos
+  válidos deverão permanecer preenchidos para que o usuário corrija somente o
+  campo inválido.
+- **CAD-013:** após o usuário corrigir um campo inválido, a mensagem de erro e
+  o destaque vermelho desse campo deverão desaparecer imediatamente, sem exigir
+  um novo clique no botão Cadastrar.
 
 ## Observação sobre o exercício anterior
 

@@ -33,7 +33,7 @@ A tela terá inicialmente:
 - campo Senha;
 - botão Cadastrar.
 
-Os requisitos iniciais estão definidos e 21 casos de teste foram documentados,
+Os requisitos iniciais estão definidos e 34 casos de teste foram documentados,
 mas ainda não foram executados.
 
 ## Documentos do projeto
@@ -47,11 +47,12 @@ mas ainda não foram executados.
 
 - [x] Definir os requisitos.
 - [x] Revisar os requisitos e retirar ambiguidades iniciais.
-- [ ] Criar os casos de teste.
+- [x] Criar os casos de teste.
 - [ ] Definir os resultados simulados.
 - [ ] Registrar os bugs simulados.
 - [ ] Preparar reteste e regressão.
-- [ ] Revisar o projeto antes de publicá-lo.
+- [x] Publicar a versão inicial no GitHub.
+- [ ] Revisar e publicar as atualizações.
 
 ## Avisos
 

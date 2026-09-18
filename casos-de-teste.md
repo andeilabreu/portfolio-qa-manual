@@ -23,16 +23,17 @@ com o status **Não executado**.
 
 ### Passos
 
-1. Deixar o campo Nome vazio.
+1. Selecionar o campo Nome e sair dele sem preenchê-lo.
 2. Informar o e-mail `andeil.teste@example.com`.
 3. Informar a senha `Teste seguro 1!`.
-4. Selecionar o botão Cadastrar.
+4. Observar o estado do botão Cadastrar.
 
 ### Resultado esperado
 
 - O usuário não deve ser criado.
 - A mensagem “Nome é obrigatório” deve aparecer abaixo do campo Nome.
 - O campo Nome deve ficar destacado.
+- O botão Cadastrar deve permanecer desabilitado.
 
 ### Execução
 
@@ -55,9 +56,9 @@ com o status **Não executado**.
 ### Passos
 
 1. Informar `A` no campo Nome.
-2. Informar o e-mail `limite1@example.com`.
-3. Informar a senha `Teste seguro 1!`.
-4. Selecionar o botão Cadastrar.
+2. Sair do campo Nome.
+3. Informar o e-mail `limite1@example.com`.
+4. Informar a senha `Teste seguro 1!`.
 
 ### Resultado esperado
 
@@ -65,6 +66,7 @@ com o status **Não executado**.
 - A mensagem “Nome deve conter entre 2 e 100 caracteres” deve aparecer abaixo
   do campo Nome.
 - O campo Nome deve ficar destacado.
+- O botão Cadastrar deve permanecer desabilitado.
 
 ### Execução
 
@@ -212,9 +214,9 @@ com o status **Não executado**.
 
 1. Preparar e conferir um texto com exatamente 101 letras.
 2. Informar esse texto no campo Nome.
-3. Informar o e-mail `limite101@example.com`.
-4. Informar a senha `Teste seguro 1!`.
-5. Selecionar o botão Cadastrar.
+3. Sair do campo Nome.
+4. Informar o e-mail `limite101@example.com`.
+5. Informar a senha `Teste seguro 1!`.
 
 ### Resultado esperado
 
@@ -222,6 +224,7 @@ com o status **Não executado**.
 - A mensagem “Nome deve conter entre 2 e 100 caracteres” deve aparecer abaixo
   do campo Nome.
 - O campo Nome deve ficar destacado.
+- O botão Cadastrar deve permanecer desabilitado.
 
 ### Execução
 
@@ -243,9 +246,9 @@ com o status **Não executado**.
 ### Passos
 
 1. Informar `Andeil123` no campo Nome.
-2. Informar o e-mail `numeros.nome@example.com`.
-3. Informar a senha `Teste seguro 1!`.
-4. Selecionar o botão Cadastrar.
+2. Sair do campo Nome.
+3. Informar o e-mail `numeros.nome@example.com`.
+4. Informar a senha `Teste seguro 1!`.
 
 ### Resultado esperado
 
@@ -253,6 +256,7 @@ com o status **Não executado**.
 - A mensagem “Nome contém caracteres não permitidos. Use letras, espaços,
   hífen ou apóstrofo” deve aparecer abaixo do campo Nome.
 - O campo Nome deve ficar destacado.
+- O botão Cadastrar deve permanecer desabilitado.
 
 ### Execução
 
@@ -314,14 +318,15 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 1. Informar `Andeil Abreu` no campo Nome.
 2. Informar o E-mail inválido.
-3. Informar a senha `Teste seguro 1!`.
-4. Selecionar o botão Cadastrar.
+3. Sair do campo E-mail.
+4. Informar a senha `Teste seguro 1!`.
 
 ### Resultado esperado
 
 - O usuário não deve ser criado.
 - A mensagem “Informe um e-mail válido” deve aparecer abaixo do campo E-mail.
 - O campo E-mail deve ficar destacado.
+- O botão Cadastrar deve permanecer desabilitado.
 
 ### Execução
 
@@ -374,15 +379,16 @@ Executar os passos abaixo separadamente para cada e-mail:
 ### Passos
 
 1. Informar `Andeil Abreu` no campo Nome.
-2. Deixar o campo E-mail vazio.
+2. Selecionar o campo E-mail e sair dele sem preenchê-lo.
 3. Informar a senha `Teste seguro 1!`.
-4. Selecionar o botão Cadastrar.
+4. Observar o estado do botão Cadastrar.
 
 ### Resultado esperado
 
 - O usuário não deve ser criado.
 - A mensagem “Informe um e-mail válido” deve aparecer abaixo do campo E-mail.
 - O campo E-mail deve ficar destacado.
+- O botão Cadastrar deve permanecer desabilitado.
 
 ### Execução
 
@@ -468,7 +474,7 @@ Executar os passos abaixo separadamente para cada e-mail:
 1. Informar `Andeil Abreu` no campo Nome.
 2. Informar o e-mail `senha11@example.com`.
 3. Informar a senha `Senha 12345`.
-4. Selecionar o botão Cadastrar.
+4. Sair do campo Senha.
 
 ### Resultado esperado
 
@@ -476,6 +482,7 @@ Executar os passos abaixo separadamente para cada e-mail:
 - A mensagem “A senha deve conter no mínimo 12 caracteres” deve aparecer abaixo
   do campo Senha.
 - O campo Senha deve ficar destacado.
+- O botão Cadastrar deve permanecer desabilitado.
 
 ### Execução
 
@@ -622,7 +629,7 @@ Executar os passos abaixo separadamente para cada e-mail:
 1. Informar `Andeil Abreu` no campo Nome.
 2. Informar o e-mail `senha65@example.com`.
 3. Preparar, conferir e informar uma senha com exatamente 65 caracteres.
-4. Selecionar o botão Cadastrar.
+4. Sair do campo Senha.
 
 ### Resultado esperado
 
@@ -630,6 +637,7 @@ Executar os passos abaixo separadamente para cada e-mail:
 - A mensagem “A senha deve conter no máximo 64 caracteres” deve aparecer abaixo
   do campo Senha.
 - O campo Senha deve ficar destacado.
+- O botão Cadastrar deve permanecer desabilitado.
 
 ### Execução
 
@@ -653,14 +661,434 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 1. Informar `Andeil Abreu` no campo Nome.
 2. Informar o e-mail `senha.vazia@example.com`.
-3. Deixar o campo Senha vazio.
-4. Selecionar o botão Cadastrar.
+3. Selecionar o campo Senha e sair dele sem preenchê-lo.
+4. Observar o estado do botão Cadastrar.
 
 ### Resultado esperado
 
 - O usuário não deve ser criado.
 - A mensagem “Senha é obrigatória” deve aparecer abaixo do campo Senha.
 - O campo Senha deve ficar destacado.
+- O botão Cadastrar deve permanecer desabilitado.
+
+### Execução
+
+- **Resultado obtido:** não executado.
+- **Status:** Não executado.
+
+## CT-022 — Senha com espaços e símbolos
+
+- **Requisitos relacionados:** SEN-004, SEN-005 e SEN-006.
+- **Tipo de teste:** positivo.
+- **Objetivo:** verificar se o sistema aceita uma senha válida contendo letras,
+  números, espaços e símbolos, sem alterar os caracteres informados.
+- **Pré-condição:** usuário está na tela de cadastro e o e-mail de teste ainda
+  não foi utilizado.
+- **Dados de teste:**
+  - Nome: `Andeil Abreu`;
+  - E-mail: `senha.simbolos@example.com`;
+  - Senha: `QA manual #1!`, com 12 caracteres.
+
+### Passos
+
+1. Informar `Andeil Abreu` no campo Nome.
+2. Informar o e-mail `senha.simbolos@example.com`.
+3. Informar a senha `QA manual #1!`.
+4. Selecionar o botão Cadastrar.
+
+### Resultado esperado
+
+- O sistema deve manter a senha exatamente como foi digitada.
+- O usuário deve ser criado.
+- A mensagem “Cadastro realizado com sucesso” deve ser exibida.
+- Nenhuma mensagem de erro deve ser apresentada.
+
+### Execução
+
+- **Resultado obtido:** não executado.
+- **Status:** Não executado.
+
+## CT-023 — Senha oculta por padrão
+
+- **Requisito relacionado:** SEN-007.
+- **Tipo de teste:** positivo.
+- **Objetivo:** verificar se os caracteres da senha ficam ocultos por padrão
+  durante a digitação.
+- **Pré-condição:** usuário está na tela de cadastro.
+- **Dados de teste:**
+  - Senha: `QA manual #1!`.
+
+### Passos
+
+1. Selecionar o campo Senha.
+2. Informar a senha `QA manual #1!`.
+3. Observar a apresentação dos caracteres durante e após a digitação.
+
+### Resultado esperado
+
+- Os caracteres informados não devem ficar visíveis.
+- Cada caractere deve ser representado por um símbolo de ocultação.
+- A senha armazenada no campo não deve ser alterada.
+
+### Execução
+
+- **Resultado obtido:** não executado.
+- **Status:** Não executado.
+
+## CT-024 — Mostrar e ocultar a senha
+
+- **Requisito relacionado:** SEN-008.
+- **Tipo de teste:** positivo.
+- **Objetivo:** verificar se o botão de visibilidade mostra a senha e permite
+  ocultá-la novamente sem alterar seu conteúdo.
+- **Pré-condição:** usuário está na tela de cadastro.
+- **Dados de teste:**
+  - Senha: `QA manual #1!`.
+
+### Passos
+
+1. Informar a senha `QA manual #1!`.
+2. Selecionar o botão para mostrar a senha.
+3. Conferir o conteúdo apresentado no campo.
+4. Selecionar novamente o botão para ocultar a senha.
+
+### Resultado esperado
+
+- Após o primeiro acionamento, a senha completa deve ficar visível.
+- Após o segundo acionamento, a senha deve ficar novamente oculta.
+- O conteúdo da senha não deve ser alterado durante essas ações.
+
+### Execução
+
+- **Resultado obtido:** não executado.
+- **Status:** Não executado.
+
+## CT-025 — Nome com dois espaços internos
+
+- **Requisito relacionado:** ESP-003.
+- **Tipo de teste:** positivo.
+- **Objetivo:** verificar se o sistema reduz espaços internos consecutivos no
+  Nome para um único espaço.
+- **Pré-condição:** usuário está na tela de cadastro e o e-mail de teste ainda
+  não foi utilizado.
+- **Dados de teste:**
+  - Nome: `João  Silva`, com dois espaços entre as partes do nome;
+  - E-mail: `joao.silva@example.com`;
+  - Senha: `QA manual #1!`.
+
+### Passos
+
+1. Informar `João  Silva` no campo Nome.
+2. Informar o e-mail `joao.silva@example.com`.
+3. Informar a senha `QA manual #1!`.
+4. Selecionar o botão Cadastrar.
+
+### Resultado esperado
+
+- O sistema deve reduzir os dois espaços internos para um.
+- O nome deve ser registrado como `João Silva`.
+- O usuário deve ser criado.
+- A mensagem “Cadastro realizado com sucesso” deve ser exibida.
+
+### Execução
+
+- **Resultado obtido:** não executado.
+- **Status:** Não executado.
+
+## CT-026 — Nome com espaços no início e no final
+
+- **Requisito relacionado:** ESP-001.
+- **Tipo de teste:** positivo.
+- **Objetivo:** verificar se o sistema remove os espaços extras do início e do
+  final do Nome antes de realizar o cadastro.
+- **Pré-condição:** usuário está na tela de cadastro e o e-mail de teste ainda
+  não foi utilizado.
+- **Dados de teste:**
+  - Nome: `  João Silva  `;
+  - E-mail: `joao.espacos@example.com`;
+  - Senha: `QA manual #1!`.
+
+### Passos
+
+1. Informar `  João Silva  ` no campo Nome.
+2. Informar o e-mail `joao.espacos@example.com`.
+3. Informar a senha `QA manual #1!`.
+4. Selecionar o botão Cadastrar.
+
+### Resultado esperado
+
+- O sistema deve remover os espaços do início e do final do Nome.
+- O nome deve ser registrado como `João Silva`.
+- O usuário deve ser criado.
+- A mensagem “Cadastro realizado com sucesso” deve ser exibida.
+
+### Execução
+
+- **Resultado obtido:** não executado.
+- **Status:** Não executado.
+
+## CT-027 — E-mail com espaços no início e no final
+
+- **Requisito relacionado:** ESP-001.
+- **Tipo de teste:** positivo.
+- **Objetivo:** verificar se o sistema remove os espaços extras do início e do
+  final do E-mail antes de validar e realizar o cadastro.
+- **Pré-condição:** usuário está na tela de cadastro e o e-mail de teste ainda
+  não foi utilizado.
+- **Dados de teste:**
+  - Nome: `João Silva`;
+  - E-mail: `  joao@example.com  `;
+  - Senha: `QA manual #1!`.
+
+### Passos
+
+1. Informar `João Silva` no campo Nome.
+2. Informar `  joao@example.com  ` no campo E-mail.
+3. Informar a senha `QA manual #1!`.
+4. Selecionar o botão Cadastrar.
+
+### Resultado esperado
+
+- O sistema deve remover os espaços do início e do final do E-mail.
+- O e-mail deve ser registrado como `joao@example.com`.
+- O usuário deve ser criado.
+- A mensagem “Cadastro realizado com sucesso” deve ser exibida.
+
+### Execução
+
+- **Resultado obtido:** não executado.
+- **Status:** Não executado.
+
+## CT-028 — E-mail com espaço interno
+
+- **Requisito relacionado:** EML-002.
+- **Tipo de teste:** negativo.
+- **Objetivo:** verificar se o sistema recusa um endereço de e-mail que contém
+  espaço interno.
+- **Pré-condição:** usuário está na tela de cadastro e o e-mail de teste ainda
+  não foi utilizado.
+- **Dados de teste:**
+  - Nome: `João Silva`;
+  - E-mail: `joao @example.com`;
+  - Senha: `QA manual #1!`.
+
+### Passos
+
+1. Informar `João Silva` no campo Nome.
+2. Informar `joao @example.com` no campo E-mail.
+3. Sair do campo E-mail.
+4. Informar a senha `QA manual #1!`.
+
+### Resultado esperado
+
+- O usuário não deve ser criado.
+- A mensagem “Informe um e-mail válido” deve aparecer abaixo do campo E-mail.
+- O campo E-mail deve ficar destacado.
+- O botão Cadastrar deve permanecer desabilitado.
+
+### Execução
+
+- **Resultado obtido:** não executado.
+- **Status:** Não executado.
+
+## CT-029 — Todos os campos obrigatórios vazios
+
+- **Requisitos relacionados:** NOM-006, EML-001, SEN-001, CAD-004, CAD-006,
+  CAD-007, CAD-008 e CAD-009.
+- **Tipo de teste:** negativo.
+- **Objetivo:** verificar se o sistema apresenta simultaneamente os erros de
+  todos os campos obrigatórios vazios.
+- **Pré-condição:** usuário está na tela de cadastro.
+- **Dados de teste:**
+  - Nome: vazio;
+  - E-mail: vazio;
+  - Senha: vazia.
+
+### Passos
+
+1. Selecionar o campo Nome e sair dele sem preenchê-lo.
+2. Selecionar o campo E-mail e sair dele sem preenchê-lo.
+3. Selecionar o campo Senha e sair dele sem preenchê-lo.
+
+### Resultado esperado
+
+- O usuário não deve ser criado.
+- A mensagem “Nome é obrigatório” deve aparecer abaixo do campo Nome.
+- A mensagem “Informe um e-mail válido” deve aparecer abaixo do campo E-mail.
+- A mensagem “Senha é obrigatória” deve aparecer abaixo do campo Senha.
+- Os três campos devem ficar destacados em vermelho.
+- O botão Cadastrar deve permanecer desabilitado.
+
+### Execução
+
+- **Resultado obtido:** não executado.
+- **Status:** Não executado.
+
+## CT-030 — Clique duplo no botão Cadastrar
+
+- **Requisitos relacionados:** CAD-005 e CAD-010.
+- **Tipo de teste:** negativo.
+- **Objetivo:** verificar se cliques rápidos e repetidos no botão Cadastrar não
+  criam usuários duplicados.
+- **Pré-condição:** usuário está na tela de cadastro e o e-mail de teste ainda
+  não foi utilizado.
+- **Dados de teste:**
+  - Nome: `João Silva`;
+  - E-mail: `clique.duplo@example.com`;
+  - Senha: `QA manual #1!`.
+
+### Passos
+
+1. Informar `João Silva` no campo Nome.
+2. Informar o e-mail `clique.duplo@example.com`.
+3. Informar a senha `QA manual #1!`.
+4. Selecionar duas vezes rapidamente o botão Cadastrar.
+
+### Resultado esperado
+
+- O botão deve ficar temporariamente desabilitado durante o processamento.
+- Apenas um cadastro deve ser criado.
+- A mensagem “Cadastro realizado com sucesso” deve ser exibida uma única vez.
+
+### Execução
+
+- **Resultado obtido (simulado):** ao selecionar rapidamente o botão duas
+  vezes, o sistema processou as duas solicitações e criou dois cadastros com o
+  mesmo e-mail.
+- **Status:** Reprovado.
+- **Bug relacionado:** BUG-001.
+
+## CT-031 — Limpeza dos campos após cadastro
+
+- **Requisito relacionado:** CAD-011.
+- **Tipo de teste:** positivo.
+- **Objetivo:** verificar se os campos são limpos automaticamente após um
+  cadastro realizado com sucesso.
+- **Pré-condição:** usuário está na tela de cadastro e o e-mail de teste ainda
+  não foi utilizado.
+- **Dados de teste:**
+  - Nome: `João Silva`;
+  - E-mail: `limpeza.campos@example.com`;
+  - Senha: `QA manual #1!`.
+
+### Passos
+
+1. Informar `João Silva` no campo Nome.
+2. Informar o e-mail `limpeza.campos@example.com`.
+3. Informar a senha `QA manual #1!`.
+4. Selecionar o botão Cadastrar.
+5. Observar o conteúdo dos campos após a confirmação do cadastro.
+
+### Resultado esperado
+
+- O usuário deve ser criado.
+- A mensagem “Cadastro realizado com sucesso” deve ser exibida.
+- Os campos Nome, E-mail e Senha devem ficar vazios.
+
+### Execução
+
+- **Resultado obtido:** não executado.
+- **Status:** Não executado.
+
+## CT-032 — Manutenção dos campos válidos após erro
+
+- **Requisito relacionado:** CAD-012.
+- **Tipo de teste:** negativo.
+- **Objetivo:** verificar se os dados válidos permanecem preenchidos quando
+  apenas um campo apresenta erro.
+- **Pré-condição:** usuário está na tela de cadastro.
+- **Dados de teste:**
+  - Nome: `João Silva`;
+  - E-mail: `joao.example.com`, sem o caractere `@`;
+  - Senha: `QA manual #1!`.
+
+### Passos
+
+1. Informar `João Silva` no campo Nome.
+2. Informar `joao.example.com` no campo E-mail.
+3. Sair do campo E-mail.
+4. Informar a senha `QA manual #1!`.
+5. Observar os campos e o botão após a apresentação do erro.
+
+### Resultado esperado
+
+- O usuário não deve ser criado.
+- A mensagem “Informe um e-mail válido” deve aparecer abaixo do campo E-mail.
+- O campo E-mail deve ficar destacado em vermelho.
+- O Nome e a Senha devem permanecer preenchidos sem alterações.
+- O botão Cadastrar deve permanecer desabilitado.
+
+### Execução
+
+- **Resultado obtido:** não executado.
+- **Status:** Não executado.
+
+## CT-033 — Remoção imediata do erro após correção
+
+- **Requisito relacionado:** CAD-013.
+- **Tipo de teste:** positivo.
+- **Objetivo:** verificar se a mensagem e o destaque de erro desaparecem
+  imediatamente após a correção do campo.
+- **Pré-condição:** usuário está na tela de cadastro.
+- **Dados de teste:**
+  - Nome inicial: `J`;
+  - Nome corrigido: `João Silva`;
+  - E-mail: `correcao.imediata@example.com`;
+  - Senha: `QA manual #1!`.
+
+### Passos
+
+1. Informar `J` no campo Nome.
+2. Sair do campo Nome.
+3. Confirmar a apresentação do erro no campo Nome.
+4. Informar o e-mail `correcao.imediata@example.com`.
+5. Informar a senha `QA manual #1!`.
+6. Corrigir o Nome para `João Silva`.
+
+### Resultado esperado
+
+- Antes da correção, o campo Nome deve ficar destacado em vermelho e apresentar
+  a mensagem “Nome deve conter entre 2 e 100 caracteres”.
+- Após a correção, a mensagem e o destaque vermelho devem desaparecer
+  imediatamente.
+- Os outros campos devem permanecer preenchidos sem alterações.
+- O botão Cadastrar deve ser habilitado.
+- O cadastro não deve ocorrer automaticamente.
+
+### Execução
+
+- **Resultado obtido:** não executado.
+- **Status:** Não executado.
+
+## CT-034 — Estado inicial e habilitação do botão
+
+- **Requisitos relacionados:** EST-001, EST-002, EST-003, EST-004 e CAD-003.
+- **Tipo de teste:** positivo.
+- **Objetivo:** verificar os elementos iniciais da tela e a habilitação do botão
+  Cadastrar somente após o preenchimento válido dos campos.
+- **Pré-condição:** usuário ainda não preencheu a tela de cadastro e o e-mail de
+  teste não foi utilizado.
+- **Dados de teste:**
+  - Nome: `João Silva`;
+  - E-mail: `habilitar.botao@example.com`;
+  - Senha: `QA manual #1!`.
+
+### Passos
+
+1. Abrir a tela de cadastro.
+2. Confirmar a presença dos campos Nome, E-mail e Senha e do botão Cadastrar.
+3. Observar o estado inicial do botão Cadastrar.
+4. Informar `João Silva` no campo Nome.
+5. Informar o e-mail `habilitar.botao@example.com`.
+6. Informar a senha `QA manual #1!`.
+7. Observar novamente o estado do botão Cadastrar.
+
+### Resultado esperado
+
+- Os três campos e o botão Cadastrar devem estar visíveis.
+- O botão Cadastrar deve estar inicialmente desabilitado.
+- Depois que todos os campos estiverem válidos, o botão deve ser habilitado.
+- O cadastro não deve ocorrer automaticamente.
 
 ### Execução
 
