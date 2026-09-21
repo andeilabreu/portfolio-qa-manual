@@ -2,8 +2,9 @@
 
 ## Situação atual
 
-Existe um bug simulado registrado. Ele serve apenas para demonstrar a elaboração
-de um relatório de defeito e não foi encontrado em uma aplicação real.
+Existem três bugs simulados registrados. Eles servem apenas para demonstrar a
+elaboração de relatórios de defeito e não foram encontrados em uma aplicação
+real. Após as correções simuladas, os três foram fechados no reteste.
 
 ## Estrutura que será utilizada
 

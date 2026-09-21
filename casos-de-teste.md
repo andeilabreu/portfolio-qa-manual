@@ -5,8 +5,8 @@
 Cada caso de teste deve estar ligado a um requisito. Os dados deste projeto são
 fictícios e o sistema é simulado.
 
-Como não existe uma aplicação para executar neste momento, os casos permanecerão
-com o status **Não executado**.
+Como não existe uma aplicação real, os resultados foram **simulados**. O resumo
+da execução está em `resultado-dos-testes.md`.
 
 ## CT-001 — Cadastro com o campo Nome vazio
 

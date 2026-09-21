@@ -1,6 +1,6 @@
 # Projeto de QA Manual — Cadastro de usuário
 
-**Status: projeto educacional em andamento.**
+**Status: projeto educacional concluído (versão 1).**
 
 ## Sobre o projeto
 
