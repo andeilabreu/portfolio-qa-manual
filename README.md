@@ -54,7 +54,8 @@ executados de forma simulada: 31 foram aprovados e 3 foram reprovados.
 - [x] Registrar os bugs simulados.
 - [x] Preparar e registrar reteste e regressão.
 - [x] Publicar a versão inicial no GitHub.
-- [x] Revisar e publicar as atualizações.
+- [x] Revisar as atualizações.
+- [x] Publicar as atualizações no GitHub.
 
 ## Avisos
 

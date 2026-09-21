@@ -3,7 +3,7 @@
 ## Situação
 
 Primeira versão definida e confirmada por Andeil. Os requisitos receberam
-identificadores para permitir a ligação com os futuros casos de teste.
+identificadores para permitir a ligação com os casos de teste.
 
 ## Requisitos confirmados
 

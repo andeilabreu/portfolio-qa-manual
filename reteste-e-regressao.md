@@ -3,8 +3,8 @@
 ## Situação
 
 Esta etapa é simulada, pois o projeto não possui uma aplicação funcional. Foi
-considerado que os três bugs registrados receberam correções simuladas e estão
-disponíveis para reteste.
+considerado que os três bugs registrados receberam correções simuladas e foram
+testados novamente.
 
 ## Objetivo
 
@@ -12,7 +12,7 @@ disponíveis para reteste.
 - **Regressão:** verificar se a correção não prejudicou outras funcionalidades
   que já funcionavam.
 
-## Retestes planejados
+## Retestes executados
 
 ### RT-001 — Impedir cadastro duplicado por clique duplo
 
