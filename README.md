@@ -33,8 +33,8 @@ A tela terá inicialmente:
 - campo Senha;
 - botão Cadastrar.
 
-Os requisitos iniciais estão definidos e 34 casos de teste foram documentados,
-mas ainda não foram executados.
+Os requisitos iniciais estão definidos e 34 casos de teste foram documentados e
+executados de forma simulada: 31 foram aprovados e 3 foram reprovados.
 
 ## Documentos do projeto
 
@@ -42,17 +42,19 @@ mas ainda não foram executados.
 - `casos-de-teste.md`: casos de teste planejados.
 - `resultado-dos-testes.md`: execução e resultado dos testes.
 - `relatorio-de-bugs.md`: defeitos simulados encontrados.
+- `reteste-e-regressao.md`: confirmação das correções e verificação de possíveis
+  impactos em funcionalidades já aprovadas.
 
 ## Etapas
 
 - [x] Definir os requisitos.
 - [x] Revisar os requisitos e retirar ambiguidades iniciais.
 - [x] Criar os casos de teste.
-- [ ] Definir os resultados simulados.
-- [ ] Registrar os bugs simulados.
-- [ ] Preparar reteste e regressão.
+- [x] Definir os resultados simulados.
+- [x] Registrar os bugs simulados.
+- [x] Preparar e registrar reteste e regressão.
 - [x] Publicar a versão inicial no GitHub.
-- [ ] Revisar e publicar as atualizações.
+- [x] Revisar e publicar as atualizações.
 
 ## Avisos
 

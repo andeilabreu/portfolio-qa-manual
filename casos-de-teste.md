@@ -37,8 +37,9 @@ com o status **Não executado**.
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-002 — Nome com 1 caractere
 
@@ -70,8 +71,9 @@ com o status **Não executado**.
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-003 — Nome com 2 caracteres
 
@@ -100,8 +102,9 @@ com o status **Não executado**.
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** o sistema aceitou o nome `Al`, criou o
+  usuário e exibiu a mensagem “Cadastro realizado com sucesso”.
+- **Status:** Aprovado.
 
 ## CT-004 — Nome com 3 caracteres
 
@@ -131,8 +134,9 @@ com o status **Não executado**.
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-005 — Nome com 99 caracteres
 
@@ -163,8 +167,9 @@ com o status **Não executado**.
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-006 — Nome com 100 caracteres
 
@@ -194,8 +199,9 @@ com o status **Não executado**.
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-007 — Nome com 101 caracteres
 
@@ -217,6 +223,7 @@ com o status **Não executado**.
 3. Sair do campo Nome.
 4. Informar o e-mail `limite101@example.com`.
 5. Informar a senha `Teste seguro 1!`.
+6. Se o botão Cadastrar ficar habilitado, selecioná-lo.
 
 ### Resultado esperado
 
@@ -228,8 +235,10 @@ com o status **Não executado**.
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** o sistema aceitou o nome com 101 caracteres,
+  habilitou o botão Cadastrar e criou o usuário.
+- **Status:** Reprovado.
+- **Bug relacionado:** BUG-003.
 
 ## CT-008 — Nome contendo números
 
@@ -260,8 +269,9 @@ com o status **Não executado**.
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-009 — Nomes com caracteres permitidos
 
@@ -295,8 +305,9 @@ Executar os passos abaixo separadamente para cada nome e e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-010 — E-mails com formato inválido
 
@@ -330,8 +341,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-011 — E-mail com formato válido
 
@@ -361,8 +373,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-012 — Campo E-mail vazio
 
@@ -392,8 +405,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-013 — E-mail já cadastrado
 
@@ -422,8 +436,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-014 — E-mail duplicado com letras maiúsculas
 
@@ -453,8 +468,11 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** o sistema tratou
+  `ANDEIL@EXAMPLE.COM` como diferente de `andeil@example.com` e criou um novo
+  usuário.
+- **Status:** Reprovado.
+- **Bug relacionado:** BUG-002.
 
 ## CT-015 — Senha com 11 caracteres
 
@@ -486,8 +504,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-016 — Senha com 12 caracteres
 
@@ -516,8 +535,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** o sistema aceitou a senha com 12 caracteres,
+  criou o usuário e exibiu a mensagem “Cadastro realizado com sucesso”.
+- **Status:** Aprovado.
 
 ## CT-017 — Senha com 13 caracteres
 
@@ -547,8 +567,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-018 — Senha com 63 caracteres
 
@@ -578,8 +599,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-019 — Senha com 64 caracteres
 
@@ -608,8 +630,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** o sistema aceitou a senha com 64 caracteres,
+  criou o usuário e exibiu a mensagem “Cadastro realizado com sucesso”.
+- **Status:** Aprovado.
 
 ## CT-020 — Senha com 65 caracteres
 
@@ -641,8 +664,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-021 — Campo Senha vazio
 
@@ -673,8 +697,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-022 — Senha com espaços e símbolos
 
@@ -705,8 +730,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-023 — Senha oculta por padrão
 
@@ -732,8 +758,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-024 — Mostrar e ocultar a senha
 
@@ -760,8 +787,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-025 — Nome com dois espaços internos
 
@@ -792,8 +820,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-026 — Nome com espaços no início e no final
 
@@ -824,8 +853,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-027 — E-mail com espaços no início e no final
 
@@ -856,8 +886,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-028 — E-mail com espaço interno
 
@@ -888,8 +919,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-029 — Todos os campos obrigatórios vazios
 
@@ -921,8 +953,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-030 — Clique duplo no botão Cadastrar
 
@@ -987,8 +1020,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-032 — Manutenção dos campos válidos após erro
 
@@ -1020,8 +1054,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-033 — Remoção imediata do erro após correção
 
@@ -1057,8 +1092,9 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
 
 ## CT-034 — Estado inicial e habilitação do botão
 
@@ -1092,5 +1128,6 @@ Executar os passos abaixo separadamente para cada e-mail:
 
 ### Execução
 
-- **Resultado obtido:** não executado.
-- **Status:** Não executado.
+- **Resultado obtido (simulado):** comportamento correspondente ao resultado
+  esperado.
+- **Status:** Aprovado.
